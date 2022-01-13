@@ -10,7 +10,7 @@ wget https://github.com/calo001/fondo/archive/refs/tags/${version}.tar.gz -O fon
 
 tar -xvf fondo-${version}.tar.gz
 
-cp debian fondo-${version}/
+cp -r debian fondo-${version}/
 
 cd fondo-${version}
 

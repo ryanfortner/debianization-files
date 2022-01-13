@@ -10,7 +10,7 @@ wget https://github.com/keepassxreboot/keepassxc/archive/refs/tags/${version}.ta
 
 tar -xvf keepassxc-${version}.tar.gz
 
-cp debian keepassxc-${version}/
+cp -r debian keepassxc-${version}/
 
 cd keepassxc-${version}
 
