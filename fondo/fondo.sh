@@ -14,10 +14,7 @@ cp -r debian fondo-${version}/
 
 cd fondo-${version}
 
-sudo mk-build-deps \
-    --tool \
-    'apt-cudf-get --solver aspcud -o APT::Get::Assume-Yes=1 -o Debug::pkgProblemResolver=0 -o APT::Install-Recommends=0' \
-    -i debian/control
+sudo mk-build-deps -i debian/control
 
 dpkg-buildpackage -us -uc -nc
 
