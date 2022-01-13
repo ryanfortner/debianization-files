@@ -1,0 +1,5 @@
+fondo (1.6.1-1) unstable; urgency=low
+
+  * Hide progressbar when download finishes.
+
+ -- Ryan Fortner <ryankfortner@gmail.com>  Fri, 07 Jan 2022 13:30:38 -0500

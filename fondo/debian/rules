@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+export VALAFLAGS:=$(foreach w,$(CPPFLAGS) $(CFLAGS) $(LDFLAGS),-X $(w))
+
+%:
+	dh $@
