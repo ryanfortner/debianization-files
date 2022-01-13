@@ -1,0 +1,8 @@
+keepassxc (2.6.6-1) unstable; urgency=low
+
+  * Fix focusing search when pressing hotkey [#6603]
+  * Trim whitespace from TOTP key input prior to processing [#6604]
+  * Fix building on macOS [#6598]
+  * Resolve compiler warnings for unused return values [#6607]
+
+ -- Ryan Fortner <ryankfortner@gmail.com>  Thu, 13 Jan 2022 13:44:34 +0000

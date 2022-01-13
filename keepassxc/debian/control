@@ -1,0 +1,14 @@
+Source: keepassxc
+Section: utils
+Priority: optional
+Maintainer: Ryan Fortner <ryankfortner@gmail.com>
+Build-Depends: cmake, debhelper (>=11~), qtbase5-dev, qtbase5-private-dev, qttools5-dev, qttools5-dev-tools, libqt5svg5-dev, libgcrypt20-dev, libargon2-dev, libqrencode-dev, libsodium-dev, zlib1g-dev, asciidoctor, libxi-dev, libxtst-dev, libqt5x11extras5-dev, libyubikey-dev, libykpers-1-dev, libquazip5-dev, libreadline-dev
+Standards-Version: 4.1.4
+Homepage: https://github.com/keepassxreboot/keepassxc
+
+Package: keepassxc
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.
+ KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information. You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC is for people with extremely high demands of secure personal data management. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.
