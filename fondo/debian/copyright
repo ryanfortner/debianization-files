@@ -1,5 +1,5 @@
 Format: https://dep.debian.net/deps/dep5
-Upstream-Name: deb-packaging
+Upstream-Name: fondo
 Source: https://github.com/calo001/fondo
 
 Files: *
