@@ -1,8 +1,5 @@
-keepassxc (2.6.6-1) unstable; urgency=low
+keepassxc (2.7.0-1) unstable; urgency=low
 
-  * Fix focusing search when pressing hotkey [#6603]
-  * Trim whitespace from TOTP key input prior to processing [#6604]
-  * Fix building on macOS [#6598]
-  * Resolve compiler warnings for unused return values [#6607]
+  * The changelog can be found at the following location: https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.0
 
- -- Ryan Fortner <ryankfortner@gmail.com>  Thu, 13 Jan 2022 13:44:34 +0000
+ -- Ryan Fortner <ryankfortner@gmail.com>  Wed, 06 Apr 2022 13:44:34 +0000

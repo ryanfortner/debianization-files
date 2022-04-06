@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=2.6.6
+version=2.7.0
 
 rm -rf *.tar.gz
 
