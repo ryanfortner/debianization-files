@@ -1,0 +1,14 @@
+Source: pibright
+Section: utils
+Priority: optional
+Maintainer: Ryan Fortner <ryankfortner@gmail.com>
+Build-Depends: debhelper-compat (= 12), valac, libvala-0.48-dev, libgtk-3-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/krishenriksen/pibright
+
+Package: pibright
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Brightness control for Raspberry Pi.
+ Brightness control program for Raspberry Pi.
