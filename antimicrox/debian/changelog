@@ -1,0 +1,13 @@
+antimicrox (3.2.3) unstable; urgency=low
+
+  * Fixed bug: auto profile not saved when exe path is not defined #252
+  * Added missing license for SDL_GameControllerDB
+  * Many updates in translations:
+  * - Added Finnish translation by heidiwenger
+  * - Added Norwegian Bokmål translation bu comradekingu
+  * - Updated German, French, Italian and Polish translations
+  * - update translation files
+  * Always show battery level in joystick status window (even when unknown)
+  * Multiple refactors and cleanups removing deprecated code (kudos to mmmaisel).
+
+ -- Ryan Fortner <ryankfortner@gmail.com>  Sun, 01 May 2022 14:00:06 -0500

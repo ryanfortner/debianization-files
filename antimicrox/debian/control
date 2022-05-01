@@ -1,0 +1,15 @@
+Source: antimicrox
+Section: games
+Priority: optional
+Maintainer: Ryan Fortner <ryankfortner@gmail.com>
+Build-Depends: cmake, debhelper (>=11~), qttools5-dev, qttools5-dev-tools, libsdl2-dev, libxi-dev, libxtst-dev, libx11-dev, itstool, gettext
+Standards-Version: 4.1.4
+Homepage: https://github.com/AntiMicroX/antimicrox
+
+Package: antimicrox
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Graphical program used to map keyboard buttons and mouse controls to a gamepad
+ Graphical program used to map keyboard buttons and mouse controls to a gamepad.
+ Useful for playing games with no gamepad support.
